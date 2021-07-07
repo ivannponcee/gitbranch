@@ -1,0 +1,15 @@
+se utiliza branch para crear ramas especificas de trabajo
+comando git branch *nombre de la rama* crea la rama
+git checkout *nombre de la rama* te para en esa rama especifica 
+
+ir al branch deseado con checkout
+git status
+git add .
+git status
+git commit -m "titulos"
+git log
+git push --set-upstream origin titulos
+
+el push final sube el branch a github
+NO PUSHEAR DIRECTAMENTE EN MAIN O MASTER
+para unir un branch con otro hay que volver al branch principal al cual queremos unir
